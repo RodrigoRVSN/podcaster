@@ -1,5 +1,5 @@
 .homepage {
-  padding: 0 4rem;
+  padding: 0 2rem;
   height: calc(100vh - 6.5rem);
   overflow-y: scroll;
   
@@ -10,13 +10,14 @@
 }
 
 .latestEpisodes{
-  ul{
+  ul{ 
     list-style: grid;
     display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
       
       li{
+    
         background-color: var(--white);
         border: 1px solid var(--gray-100);
         padding: 1.25rem;
@@ -25,8 +26,7 @@
         
         display: flex;
         align-items: center;
-        
-        
+            
         img{
           width: 6rem;
           height: 6rem;

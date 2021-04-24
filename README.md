@@ -16,10 +16,11 @@ Componentes
 Páginas estáticas
 useEffect
 Consumir api com json
+
 #embuscadoproximonivel
 
 # Aula 3 
-<p>{JSON.stringify(props.episodes)}</p>
+`<p>{JSON.stringify(props.episodes)}</p>`
 Integração de dados
 Roteamento
 Tipagem do typescript
@@ -27,5 +28,21 @@ Geração da página estática com {slug}
 
 #astronautas
 
+# Aula 4
+Slug: Opção dinâmica que irá renderizar alguma página estática com o build no paths[]
+Não vale a pena criar muitas páginas estáticas com path[]
+Ideia do Diego: mais acessados em path[], build pro fallback com 'blocking'
+`yarn add rc-slider`
+Contexto
+Geração estática
+Componente player e contexto
+TAGS nativas de html com ref
+
+#universoinfinito
+
 ## IDEIAS 
 SCROLL personalizado
+dark-theme
+
+
+### verificar members home
