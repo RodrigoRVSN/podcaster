@@ -8,9 +8,6 @@ ________________________________________________________________________________
 - HTML
 - SCSS (with Sass)
 - Yarn
-- Visual Studio Code
-- Web-kit
-- Dark-mode
 
 _________________________________________________________________________________________________________________________________________________________
 🖥️ Required! Install git, node and yarn (or npm) (Obrigatório! Instalar git, node and yarn (ou npm))
