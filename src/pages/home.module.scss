@@ -1,4 +1,8 @@
+
+
 .homepage {
+background-color: var(--principal);
+
   padding: 0 2rem;
   height: calc(100vh - 6.5rem);
   overflow-y: scroll;
@@ -7,7 +11,11 @@
     margin-top: 3rem;
     margin-bottom: 1.5rem;
   }
+  p, h1, h2, h3, h4{
+    color: var(--text);
+  }
 }
+
 
 .latestEpisodes{
   ul{ 
@@ -17,9 +25,8 @@
     gap: 1rem;
       
       li{
-    
-        background-color: var(--white);
-        border: 1px solid var(--gray-100);
+        background-color: var(--terciary-300);
+        border: 1px solid var(--terciary-100);
         padding: 1.25rem;
         border-radius: 1.5rem;
         position: relative;
@@ -39,7 +46,7 @@
         
           a {
             display: block;
-            color: var(--gray-800);
+            color: var(--terciary-50);
             font-family: Lexand, sans-serif;
             font-weight: 600;
             text-decoration: none;
@@ -51,6 +58,7 @@
           }
           
           p {
+            color: var(--terciary-50);
             font-size: 0.875rem;
             margin-top: 0.5rem;
             max-width: 70%;
@@ -90,7 +98,7 @@
         width: 2.5rem;
         height: 2.5rem;
         background: var(--white);
-        border: 1px solid var(--gray-100);
+        border: 1px solid var(--terciary-100);
         border-radius: 0.675;
         font-size: 0;
         transition: filter 0.2s ;
@@ -115,12 +123,13 @@
     width: 100%;
 
     th, td{
+      color: var(--terciary-200);
       padding: 0.75rem 1rem;
-      border-bottom: 1px solid var(--gray-100);
+      border-bottom: 1px solid var(--terciary-100);
     }
 
     th{
-      color: var(--gray-200);
+      color: var(--terciary-200);
       text-transform: uppercase;
       font: 500 0.75 Lexend, sans-serif;
       text-align: left;
@@ -136,7 +145,7 @@
       }
 
       a{
-        color: var(--gray-800);
+        color: var(--terciary-200);
         font-family: Lexend,sans-serif;
         font-weight: 600;
         text-decoration: none;
@@ -150,7 +159,7 @@
         width: 2rem;
         height: 2rem;
         background: var(--white);
-        border: 1px solid var(--gray-100);
+        border: 1px solid var(--terciary-100);
         border-radius: 0.675;
         font-size: 0;
         transition: filter 0.2s ;

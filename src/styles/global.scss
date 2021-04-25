@@ -7,22 +7,6 @@
   box-sizing: inherit;
 }
 
-:root {
-  --white: #fff;
-
-  --gray-50: #f7f8fa;
-  --gray-100: #e6e8eb;
-  --gray-200: #afb2b1;
-  --gray-500: #808080;
-  --gray-800: #494d4b;
-
-  --green-500: #04d361;
-
-  --purple-300: #9f75ff;
-  --purple-400: #9164fa;
-  --purple-500: #8257e5;
-  --purple-800: #6f48c9;
-}
 
 @media (max-width: 1000px) {
   html {
@@ -65,4 +49,16 @@ h2 {
 
 button {
   cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--principal);
+}
+::-webkit-scrollbar {
+  width: 1rem;
+  background: var(--text);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--text) ;
+  border-radius: 1rem;
 }

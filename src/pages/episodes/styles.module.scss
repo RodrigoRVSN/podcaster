@@ -1,8 +1,13 @@
+.manto{
+    background-color: var(--principal);
+    height: calc(100vh - 6.5rem);
+    overflow-y: scroll;
+}
+
 .episode{
     max-width: 45rem;
     padding: 3rem 2rem;
     margin: 0 auto;
-
     .thumbnailContainer{
         position: relative;
         img{
@@ -21,14 +26,14 @@
            &:first-child {
                left: 0;
                top: 50%;
-               background: var(--purple-500);
+               background: var(--terciary-100);
                 transform: translate(-50%, -50%);
             }
 
            &:last-child{
                right: 0;
                top: 50%;
-               background: var(--green-500);
+               background: var(--quartiary-500);
                transform: translate(50%, -50%);
            }
 
@@ -41,12 +46,14 @@
 
     header{
         padding-bottom: 1rem;
-        border-bottom: 1px solid var(--green-100);
+        border-bottom: 1px solid var(--quartiary-500);
     h1{
         margin-top: 2rem;
         margin-bottom: 1.5rem;
+        color: var(--terciary-100);
     }
     span{
+        color: var(--terciary-100);
         display: inline-block;
         font-size: 0.875rem;
         
@@ -60,7 +67,7 @@
             width: 4px;
             height: 4px;
             border-radius: 2px;
-            background-color: #DDD;
+            background-color: var(--quartiary-500);
             position: absolute;
             left: 0;
             top: 50%;
@@ -72,7 +79,7 @@
     .description{
         margin-top: 2rem;
         line-height: 1.675rem;
-        color: var(--gray-800);
+        color: var(--terciary-200);
         p{
             margin: 1.5rem 0;
         }

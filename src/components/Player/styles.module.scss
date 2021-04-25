@@ -3,8 +3,8 @@
     width: 24.5rem;
     height: 100vh;
   
-    background-color: var(--purple-500);
-    color: var(--white);
+    background-color: var(--secondary-300);
+    color: var(--principal);
   
     display: flex;
     flex-direction: column;
@@ -17,6 +17,9 @@
         gap: 1rem;
     }
 
+    span, strong{
+        color: var(--terciary-50);
+    }
     strong{
         font-family: Lexend, sans-serif;
         font-weight: 600;
@@ -55,7 +58,7 @@
 .emptyPlayer{
     width: 100%;
     height: 20rem;
-    border: 1.5px dashed var(--purple-300);
+    border: 1.5px dashed var(--terciary-300);
     background: linear-gradient(143.8deg, rgba(145,100,250,0.8) 0%, rgba(0, 0, 0, 0) 100%);
 
     padding: 4rem;
@@ -84,7 +87,7 @@
     .emptySlider{
         width: 100%;
         height: 4px;
-        background: var(--purple-300);
+        background: var(--secondary-100);
         border-radius: 0.1rem;
     }
     }
@@ -125,7 +128,7 @@
             width: 4rem;
             height: 4rem;
             border-radius: 1rem;
-            background: var(--purple-400);
+            background: var(--terciarys-100);
             &:hover:not(:disabled){
                 filter: brightness(0.95);
             }

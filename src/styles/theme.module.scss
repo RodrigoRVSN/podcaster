@@ -1,0 +1,34 @@
+.light {
+  
+    --principal: #f7f8fa;
+    --text: rgb(18, 22, 36);
+    --secondary-50: #9f75ff;
+    --secondary-100: #9164fa;
+    --secondary-200: #8257e5;
+    --secondary-300: #6f48c9;
+    
+    --terciary-50: #bec5d3;
+    --terciary-100: #98a1ad;
+    --terciary-200: #4d645d;
+    --terciary-300: #555151;
+    
+    --quartiary-500: #04d361;
+  }
+  
+  .dark {
+    --principal: rgb(18, 22, 36);
+    --text: rgb(228, 24, 24);
+
+    --terciary-50: rgb(27, 231, 231);
+    --terciary-100: rgb(30, 200, 200);
+    --terciary-200: rgb(37, 160, 160);
+    --terciary-300: rgb(32, 131, 131);
+  
+    --secondary-50: rgb(228, 24, 24);
+    --secondary-100: rgb(209, 34, 34);
+    --secondary-200: rgb(184, 48, 48);
+    --secondary-300: rgb(146, 52, 52);
+  
+  
+    --quartiary-500: #04d361;
+  }

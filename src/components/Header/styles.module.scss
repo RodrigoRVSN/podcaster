@@ -1,19 +1,38 @@
 .headerContainer {
-    background-color: var(--white);
+    background-color: var(--principal);
     height: 6.5rem;
     display: flex;
     align-items: center;
     padding: 2rem 4rem;
-    border-bottom: 1px solid var(--gray-100);
+    border-bottom: 1px solid var(--text);
   
     p {
       margin-left: 2rem;
       padding: 0.25rem 0 0.25rem 2rem;
-      border-left: 1px solid var(--gray-100);
+      border-left: 1px solid var(--primary-100);
     }
   
     span {
       margin-left: auto;
       text-transform: capitalize;
+    }
+    p, h1, h3, h4, span{
+      color: var(--text);
+    }
+    
+    h1{
+      align-items: center;
+      margin-left: 2rem;
+  }
+  }
+  
+  .themeButton{
+    font-size: 3rem;
+    margin-left: 2rem;
+    color: var(--terciary-200);
+    cursor: pointer;
+    border-radius: 50%;
+    &:hover{
+      border: 2px solid cyan;
     }
   }
