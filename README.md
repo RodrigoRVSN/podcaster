@@ -40,9 +40,13 @@ TAGS nativas de html com ref
 
 #universoinfinito
 
+# Aula 5
+Player
 ## IDEIAS 
 SCROLL personalizado
 dark-theme
+Responsividade
+PWA -> Aplicativo
 
 
 ### verificar members home
